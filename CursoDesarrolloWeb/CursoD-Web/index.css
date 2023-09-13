@@ -1,0 +1,25 @@
+
+.container{
+    background-color: rgba(0, 255, 255, 0.884);
+    display: flex;  /* Con display flex indicamos que los trabajaremos con flex-box*/ 
+    justify-content:space-around; /*la forma de ubicar los elementos, centro,espacio entre ellos, todos al inicio,entre otros... */
+    flex-direction:row; /*direccion que tendran los elementos ,columna,fila*/
+    align-items: center; /*es la forma de alinear los items:centro,final,inicio */
+    height: 100px;
+}
+
+.item{
+    background-color: brown;
+    width: 170px;
+    height: 40px;
+    margin: 2px;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .item:nth-child(2n + 1){
+    background-color: black;
+
+}

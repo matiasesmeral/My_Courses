@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="form">
+        <h3 style="text-align: center;"> Formulario para modificar datos</h3>
+            <form id="formulario" style="text-align: start;">
+                <label> Title: </label>
+                <input type="text" value="" id="title">
+                <label>Body: </label>
+                <input type="text" name="body" id="body">
+                <label id="id"></label> 
+                <button type="button" id="habilitar">Habilitar Para Modificar</button>
+                <button type="submit">Modificar</button>
+                <button type="button" id="delete">Eliminar</button>
+                <button type="button" id="listar" style="display: none;">Listar</button>
+            </form>
+        <p id="load"></p>    
+   </div>
+    <script src="./Fetch.js"></script>
+</body>
+</html>

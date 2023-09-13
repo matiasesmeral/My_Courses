@@ -1,0 +1,85 @@
+/* Estilo de reinicio básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+
+header > ul > li {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none; 
+}
+
+
+#id{
+    width: 250px;
+    height: 35px;
+    margin-left: 12px;
+}
+
+.buscar{
+    background-color: rgb(114, 124, 114);
+    margin: 20px;
+    width: 140px;
+    height: 35px;
+    border: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+}
+
+.buscar:hover{
+    background-color: rgb(53, 0, 102);
+}
+
+header{
+    background: linear-gradient(to top, lime, cyan);
+    height: 6rem;
+    width: 83rem;
+    margin: 15px;
+    border-radius: 22px;
+}
+
+aside{
+    background: linear-gradient(to top, lime, 20%, cyan);
+    width: 44rem;
+    height: 29rem;
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    text-align: center;
+}
+
+.main{
+    margin-left: 1px;
+    width: 85rem;
+    height: 30rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.section{
+    background: linear-gradient(to top, lime, 20%, cyan);
+    width: 39rem;
+    height: 29rem;
+    position: absolute;
+    border-radius: 33px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

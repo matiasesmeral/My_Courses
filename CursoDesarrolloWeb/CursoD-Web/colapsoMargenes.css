@@ -1,0 +1,12 @@
+
+
+.padre{
+    display: flex;   
+    flex-direction: row;
+}
+
+
+p{
+    background-color: aqua;
+    margin: 20px;
+}

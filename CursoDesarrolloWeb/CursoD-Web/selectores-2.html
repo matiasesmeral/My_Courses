@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*div p - div > p - div + p - div ~ p */
+        div p{
+            color: blue;
+        }
+        div > div{
+            background-color: aqua;
+        }
+         .div1{
+            color: blueviolet;
+        }
+        div + section{
+            background-color: brown;
+        }
+        div ~ nav {
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>hijo del div</p>
+        <p>hijo  2 del div </p>
+    </div>
+    
+        <nav>
+            <ul>
+                <li>lista 1</li>
+                <li>lista 2</li>
+            </ul>
+        </nav>
+    <div>
+        <div>
+            un div dentro de otro div sin id o class
+        </div>
+        <div class="div1">
+            este es un div con clase
+        </div> 
+    </div>
+    <section>
+        <p>
+            parrafo dentro de section
+        </p>
+    </section>
+</body>
+</html>

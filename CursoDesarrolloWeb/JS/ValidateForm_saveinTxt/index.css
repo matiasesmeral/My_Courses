@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label{
+    margin-right: 10px;
+}
+#formulario{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15px;
+        max-width: 600px;
+        align-items: center;
+        background-color: aquamarine;
+        height: 100vh;
+        border-radius: 22px;
+}
+#form-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+textarea,input{
+    width: 100%;
+    grid-column: 1/span 2;
+}
+
+.button-save{
+    grid-column: 1 / span 2; /* Span across two columns */
+}
+
+#imagen{
+  color: transparent;
+}

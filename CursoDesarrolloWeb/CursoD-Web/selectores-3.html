@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        x0000 = !important.
+        x000  = estilos en linea.
+        x00   = id
+        x0    = clases atributos y pseudo clases
+        1     = elementos y pseudo elementos.
+        0     = *.
+        */
+        div p{
+            color: blue;
+        }
+        div p:hover{
+            color: brown;
+        }
+        div p::before{
+            content: "😌";
+        }
+        div p::after{
+            content: "😀";
+        }
+        div p:nth-child(2){
+            color: aqua;
+        }
+        div p:hover:nth-child(2){
+            background-color: black;
+        }
+        input::placeholder{
+            color: blue;
+        }
+        input:hover::placeholder{
+            background-color: tomato;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Plazti</p>
+        <p>Master</p>
+        <p>lo mejor</p>
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>

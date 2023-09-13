@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="formularioValidar">
+        <form id="formulario" method="post" action="/savedata">
+
+            <div id="form-child">
+                <label>Nombre Completo </label>
+                <input type="text" id="fullName">
+            </div>
+
+            <div id="form-child">
+                <label>Numero de telefono Principal</label>
+                <input type="number" id="mainNumber">
+            </div>
+
+            <div id="form-child">
+                <label>Numero de Telefono Secundario</label>
+                <input type="number" id="secondNumber">
+            </div>
+
+            <div id="form-child">
+                <label>Correo</label>
+                <input type="email" id="email">
+            </div>
+
+            <div id="form-child">
+                <label>Direccion</label>
+                <input type="text" id="direction">
+            </div>
+
+            <div id="form-child">
+                <label>Fecha Cumpleaños</label>
+                <input type="date" id="hbd">
+            </div>
+
+            <div id="form-child">
+                <label>Organizacion o Empresa </label>
+                <input type="text" id="org">
+            </div>
+
+            <div id="form-child">
+                <label>Cargo</label>
+                <input type="text" id="position">
+            </div>
+            
+            <div id="form-child">
+                <label>Sitio Web</label>
+                <input type="url" name="url" id="website" placeholder="www.example.com">
+             </div>    
+
+             <div id="form-child">
+                <label>Foto de perfil</label>
+                <input type="file" name="imagen" id="pic">
+             </div>
+
+             <div id="form-child">
+                <textarea id="textarea" cols="20" rows="5">Notas Adicionales</textarea>
+             </div>
+             
+             <div class="button-save">
+                <input type="submit" value="Guardar" id="button">
+             </div>
+             
+             
+           
+        </form>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
